@@ -87,7 +87,7 @@ def generateCustomerDataFile():
     global customer_list
     file_name = "customers.csv"
     
-    # Overwrite the file ('w') with the current customer list
+    # Overwrite the file with the current customer list
     with open(file_name, 'w', newline='') as file:
         writer = csv.writer(file)
         
